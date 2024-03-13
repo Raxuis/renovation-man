@@ -1,5 +1,5 @@
-body {
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
+:root {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #212529;
   font-size: 1rem;
@@ -12,33 +12,10 @@ a {
   color: #000;
   text-decoration: none;
   display: flex;
+  font-size: 16px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-}
 
 nav img {
   height: 24px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-nav button {
-  background-color: #e31a5a;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
 }

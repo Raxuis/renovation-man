@@ -5,24 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rénovation énergétique : toutes les aides en 2024</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
   <nav>
-    <ul>
-      <li><a href="index.html"><img src="../assets/logos/logo.svg" height="24" /></a></li>
-      <li><a href="index.html">Nos réalisations</a></li>
-      <li><a href="index.html">Nos expertises<img width="7" height="5" src="../assets/icons/arrow-down.svg" alt=""></a>
-      </li>
-      <li><a href="index.html"><img src="../assets/icons/leaf.png" width="24" height="24" alt=""
-            style="margin-right: 8px;">Rénovation Énergétique<img width="7" height="5"
-            src="../assets/icons/arrow-down.svg" alt=""></a></li>
-      <li><a href="index.html">En savoir plus</a><img width="7" height="5" src="../assets/icons/arrow-down.svg" alt="">
-      </li>
-      <button type="button" class="btn">Estimation gratuite</button>
-    </ul>
+    <div class="w-full px-4 flex justify-between py-4">
+      <a href="index.html"><img src="../assets/logos/logo.svg" class="mt-2" height="24" /></a>
+      <ul class="flex justify-between items-center gap-4">
+        <li><a href="index.html">Nos réalisations</a></li>
+        <li><a href="index.html">Nos expertises<img width="7" height="5" class="ml-1"
+              src="../assets/icons/arrow-down.svg" alt=""></a>
+        </li>
+        <li><a href="index.html"><img src="../assets/icons/leaf.png" width="24" height="24" alt=""
+              style="margin-right: 8px;">Rénovation Énergétique<img width="7" height="5" class="ml-1"
+              src="../assets/icons/arrow-down.svg" alt=""></a></li>
+        <li><a href="index.html">En savoir plus<img width="7" height="5" class="ml-1"
+              src="../assets/icons/arrow-down.svg" alt=""></a>
+        </li>
+      </ul>
+      <div class="flex gap-3">
+        <button class="p-3 bg-[#e31a5a] text-white pointer rounded-lg">Estimation gratuite</button>
+        <div class="border-l-2 border-black">
+          <button class="p-2"><img src="../assets/emojis/person.svg" /></button>
+        </div>
+      </div>
+    </div>
   </nav>
   <script src="script.js"></script>
 </body>
