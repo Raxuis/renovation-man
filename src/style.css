@@ -1,0 +1,13 @@
+:root {
+    --primary: #e9477a;
+}
+
+#progress-bar {
+    background-color: var(--primary);
+    position: fixed;
+    box-shadow: 0 1px 5px var(--primary);
+    border-radius: 2px;
+    height: 2px;
+    left: 0;
+    top: 70px;
+}
