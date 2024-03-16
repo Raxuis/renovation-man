@@ -16,9 +16,9 @@
 
 <body class="overflow-x-hidden">
   <nav class="bg-white w-full">
-    <div class="fixed bg-white w-full z-10 px-4 flex justify-between py-3">
+    <div class="fixed bg-white w-full z-10 px-4 flex flex-wrap justify-center sm:justify-between py-3">
       <a href="index.html" class="flex"><img src="../assets/logos/logo.svg" class="mt-2 h-6" /></a>
-      <ul class="flex justify-between items-center gap-6">
+      <ul class="hidden sm:flex justify-between items-center gap-6">
         <li><a href="index.html"
             class="flex relative inline before:bg-[#e31a5a]  before:absolute before:-bottom-1 before:block before:h-[2px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100">Nos
             réalisations</a></li>
@@ -35,7 +35,7 @@
             savoir plus<img width="7" height="5" class="ml-2" src="../assets/icons/arrow-down.svg" alt=""></a>
         </li>
       </ul>
-      <div class="flex gap-4 divide-x">
+      <div class="flex gap-4 divide-x pt-4 sm:pt-0">
         <button class="p-3 duration-500 bg-[#e31a5a] hover:bg-[#e31a5ab3] text-white pointer rounded-lg">Estimation
           gratuite</button>
         <div>
@@ -46,7 +46,8 @@
     </div>
   </nav>
 
-  <div id="progress-bar" class="z-50 bg-[#e9477a] fixed top-[70px] left-0 h-[2px] rounded-lg shadow-lg"></div>
+  <div id="progress-bar" class="z-50 bg-[#e9477a] fixed top-[115px] sm:top-[70px] left-0 h-[2px] rounded-lg shadow-lg">
+  </div>
 
   <header class="h-[630px] flex items-center justify-center bg-[url('../assets/background.avif')] bg-cover relative">
     <div class="max-w-[640px] flex flex-col items-center gap-3">
@@ -57,7 +58,7 @@
       </p>
       <button class="p-3 duration-500 bg-[#e31a5a] hover:bg-[#e31a5ab3] text-white pointer rounded-lg">Estimation sous
         24h</button>
-      <div class="flex gap-3 justify-center items-center">
+      <div class="flex flex-wrap gap-3 justify-center items-center">
         <p class="text-white font-bold">Excellent</p>
         <div class="flex gap-1">
           <div class="bg-green-500 p-1 rounded-lg"><svg viewBox="0 0 24 24" width="24px" height="24px"
@@ -102,7 +103,7 @@
           <path d="m16.522 15.475-.6-1.866-4.319 3.147 4.919-1.281Z" fill="#005128"></path>
         </svg>
       </div>
-      <div class="flex justify-between h-[32px]">
+      <div class="flex flex-wrap justify-evenly sm:justify-between h-[32px]">
         <img src="../assets/logos/capital.avif" class="h-full m-1" />
         <img src="../assets/logos/france-5.avif" class="h-full m-1" />
         <img src="../assets/logos/lesechos.avif" class="h-full m-1" />
@@ -172,7 +173,7 @@
   </div>
   <div class="flex flex-col items-center mx-auto my-0 mt-12">
     <div class="text-[#0b6780] font-bold text-5xl mb-8">Notre experts en parlent</div>
-    <div class="grid gap-8 grid-cols-3 x-auto max-w-[1240px] px-6 py-4">
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-3 x-auto max-w-[1240px] px-6 py-4">
       <article class="duration-500 hover:scale-105 hover:shadow-2xl rounded-lg shadow-lg">
         <img src="../assets/eco-ptz.avif" class="h-[210px] w-full object-cover rounded-t-lg" alt="">
         <div class="flex justify-start p-4">
@@ -221,14 +222,15 @@
     </div>
   </div>
   <div class="mt-8 bg-[#0a596e] py-6 px-8">
-    <div class="flex justify-evenly h-[32px]">
-      <img src="../assets/logos/actradis.avif">
-      <img src="../assets/logos/axa.svg">
-      <img src="../assets/logos/lafrenchtech.svg">
-      <img src="../assets/logos/arkea.avif">
-      <img src="../assets/logos/hellosign.svg">
+    <div class="flex justify-evenly flex-wrap gap-4 md:gap-8">
+      <img class="max-w-[120px]" src="../assets/logos/actradis.avif">
+      <img class="max-w-[120px]" src="../assets/logos/axa.svg">
+      <img class="max-w-[120px]" src="../assets/logos/lafrenchtech.svg">
+      <img class="max-w-[120px]" src="../assets/logos/arkea.avif">
+      <img class="max-w-[120px]" src="../assets/logos/hellosign.svg">
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 
