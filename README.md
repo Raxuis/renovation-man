@@ -35,7 +35,7 @@ This repository was made for a hackathon in CODA - Orléans.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Edit the embedding div.
+:heavy_check_mark: Edit the embedding div
 
 ## :rocket: Technologies
 
