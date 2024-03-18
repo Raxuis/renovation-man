@@ -31,7 +31,7 @@
 
 ## :dart: About
 
-This repository was made for a hackathon in CODA - Orléans.
+This repository was made for a hackathon at CODA - Orléans.
 
 ## :sparkles: Features
 
